@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#root {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+.navbar--container {
+    width: 550px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    align-items: center;
+    padding: 20px 35px;
+}
+.nav--logo {
+    max-width: 150px;
+}
