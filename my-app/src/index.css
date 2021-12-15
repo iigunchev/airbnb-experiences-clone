@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     background-color: #E5E5E5;
-    height: 100vh;
+    height: 1000px;
 }
 .container {
     background-color: #fff;
@@ -48,4 +48,46 @@ header {
     font-size: 16px;
     max-width: 320px;
     margin-top: 16px;
+}
+/* Card */
+.card-container {
+    padding: 24px 36px;
+    display: flex;
+    gap: 2em;
+    width: 550px;
+    overflow-x: scroll;
+    height: 100%;
+}
+.card {
+    height: 235px;
+    width: 175px;
+}
+.card>span {
+    display: block;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.card>p {
+    font-size: 12px;
+    margin-top: 8px;
+}
+.exp--img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.img--label {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
